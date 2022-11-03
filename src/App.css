@@ -32,6 +32,10 @@
   margin-left: auto;
 }
 
+.walletButton {
+  width: 250px;
+}
+
 main{
   margin: 2em auto;
   display: flex; 
