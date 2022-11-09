@@ -23,8 +23,7 @@ function environment(env) {
           // chainId: "CudosTestnet-Public-v3",
           chainId : "cudos-network",
           nodeUrl: "https://localhost:26657",
-          // contractAdd: CONTRACT_ADD,n
-          explorerUrl: "https://explorer.testnet.near.org",
+          // contractAdd: CONTRACT_ADD,
           gasPrice: "0.15acudos"
         };
       default:
