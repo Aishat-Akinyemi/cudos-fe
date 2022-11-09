@@ -77,8 +77,7 @@ export async function submitResponse(client, text) {
     const offlineSigner = window.getOfflineSigner(env.chainId);
     const accounts = await offlineSigner.getAccounts();  
     let responseMsg = { respond: {response: text} };
-    let tx = await client.execute(accounts[0].address, env.contractAdd, responseMsg, "auto");  
-   
+    return await client.execute(accounts[0].address, env.contractAdd, responseMsg, "auto");     
 }
 
 

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import ResponseList from './components/ResponseList';
 import ResponseForm from './components/ResponseForm';
 import Wallet from './components/Wallet';
@@ -45,7 +44,7 @@ function App() {
     submitResponse(client, resp).then(
       res=> {
         alert("success"); 
-        getResponses();       
+        getResponses();      
       },
       err => alert(err)
     )
@@ -60,6 +59,7 @@ function App() {
       setCanRespond(true) ;
       return;
     }
+    setCanRespond(false);
   }
   
 
