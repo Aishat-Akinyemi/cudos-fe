@@ -1,5 +1,4 @@
-import React, {useState, useCallback, useEffect} from 'react';
-import { getReplies } from "../utils/cudos";
+import React from 'react';
 
 
 const ResponseList = ({replies}) => {
